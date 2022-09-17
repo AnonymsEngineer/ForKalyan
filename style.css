@@ -1,0 +1,68 @@
+.banner-bg{
+    height:50vh; 
+    background-color:rgb(255,135,23); 
+    color:white;
+}
+
+.banner-logo{
+    margin-top:10vh;
+}
+
+.banner-text{
+    margin-top:10vh; 
+    margin-left:-10vw;
+}
+
+#banner-name{
+    font-size:5vw; 
+    text-decoration: underline;
+}
+
+.small-text, 
+.banner-small-text{
+    font-size: 2vw;
+}
+
+.about-text{
+    text-align: justify;
+    font-size: 1.75vw;
+}
+.footer-text{
+    text-align:center;
+    margin: 5vh 0px 2.5vh 0px;
+}
+
+@media screen and (max-width:450px){
+    .banner-bg{
+        height:40vh; 
+    }
+    
+    .banner-logo{
+        margin:5vh 0px 0px 22.5vw;
+        width:50%;
+        height: 65%;
+    }
+    
+    .banner-text{
+        margin-top:-3vh; 
+        margin-left:47.5vw;
+    }
+    
+    #banner-name{
+        font-size:10vw; 
+    }
+
+    .banner-small-text{
+        margin-top: -2vh;
+        margin-left: -5vw;
+        font-size: 6vw;
+    }
+
+    .small-text{
+        font-size: 5vw;
+    }
+
+    .about-text{
+        font-size: 4vw;
+    }
+}
